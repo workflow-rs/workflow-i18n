@@ -2,7 +2,7 @@
 name = "workflow-i18n"
 version = "0.1.0"
 edition = "2021"
-license = "Apache-2.0 OR MIT"
+license = "Apache-2.0/MIT"
 repository = "https://github.com/workflow-rs/workflow-i18n"
 keywords = ["i18n","translation","language","internationalization"]
 categories = ["internationalization"]
