@@ -103,6 +103,7 @@ impl Default for Dict {
         let mut aliases = FxHashMap::default();
 
         vec![
+            ("af","Afrikaans"),
             ("ar","Arabic"),
             ("bg","Bulgarian"),
             ("bn","Bengali"),
@@ -137,6 +138,8 @@ impl Default for Dict {
             ("sr","Serbian"),
             ("sl","Slovenian"),
             ("sv","Swedish"),
+            ("ta","Tamil"),
+            ("te","Telugu"),
             ("th","Thai"),
             ("tr","Turkish"),
             ("uk","Ukrainian"),
