@@ -137,6 +137,7 @@ impl Default for Dict {
             ("nb","Norwegian"),
             ("nl","Dutch"),
             ("no","Norwegian"),
+            ("pa","Panjabi"),
             ("pl","Polish"),
             ("pt","Português"),
             ("ro","Romanian"),
