@@ -92,6 +92,13 @@ impl Dict {
             }
         }
     }
+    pub fn language<'code>(&self, code:&'code str)-> Result<Option<&'code str>> {
+        if let Some(lang) = self.languages.get(code){
+            Ok(Some(*lang))
+        }else{
+            Ok(None)
+        }
+    }
 }
 
 impl Default for Dict {
